@@ -11,6 +11,12 @@ public class UseriPhone {
     }
 
     public UseriPhone(String manufacturer, String size, String color, String model, boolean faceID){
-
+        this.manufacturer = manufacturer;
+        this.size = size;
+        this.color = color;
+        this.model = model;
+        this.faceID = faceID;
     }
+
+
 }
